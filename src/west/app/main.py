@@ -149,7 +149,7 @@ class WestApp:
         # to fix a manifest-rev revision in a project which is being
         # imported to point from a bogus manifest to a non-bogus one.
         no_manifest_ok = ['help', 'config', 'topdir', 'init', 'manifest',
-                          'update']
+                          'update', 'sdk']
 
         # Handle ManifestVersionError is a special case.
         if isinstance(self.mle, ManifestVersionError):
